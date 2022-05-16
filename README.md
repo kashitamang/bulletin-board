@@ -99,9 +99,9 @@ VALIDATION: page redirects to home page if already logged in
 
 
 Auth Button in homepage
--copy paste signout function into fetch.utils and have server redirect to home 
--get button by ID 
--add event listener and call logout when user is authorized
--
+-event listener on window load should check to see if user if auth
+yes= logout button 
+no= login button
 
--create auth page 
+-create post homepage
+-to be continued'...
