@@ -8,7 +8,7 @@ const createButton = document.getElementById('create-button');
 //console.log(createButton);
 // let state
 // set event listeners 
-checkAuth();
+//checkAuth();
 
 window.addEventListener('load', async () =>{
     const user = await getUser();
