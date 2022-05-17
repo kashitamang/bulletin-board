@@ -6,3 +6,12 @@ const client = supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
 export function getUser() {
     return client.auth.session() && client.auth.session().user;
 }
+
+export async function signupUser(email, password) {
+    const response = await client.auth.signUp({ email, password });
+    if (response.user) {
+        return response.user;
+    } else {
+        console.error(response.error);
+    }
+}
