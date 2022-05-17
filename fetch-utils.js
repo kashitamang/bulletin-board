@@ -12,7 +12,7 @@ export async function signupUser(email, password) {
     if (response.user) {
         return response.user;
     } else {
-        console.error(response.error);
+        alert(response.error);
     }
 }
 
@@ -25,4 +25,10 @@ export async function redirectIfLoggedIn() {
 export async function logout() {
     await client.auth.signOut();
     return (window.location.href = './index.html');
+}
+
+export async function checkAuth() {
+    const user = getUser();
+
+    if (!user) location.replace('/');
 }
