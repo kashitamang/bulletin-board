@@ -1,1 +1,24 @@
 /* add home page styles here */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#bulletin-board {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 2px solid gray;
+    padding: 30px;
+}
+
+.post {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    border: 2px solid gray;
+    border-radius: 20%;
+    margin: 20px;
+}

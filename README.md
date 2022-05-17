@@ -81,27 +81,37 @@ To Do List:
 
 🎁create auth page in HTML 
   ✅using forms for sign IN email input, password input, and submit button
-  -using forms for sign UP email input, password input, and submit button
--create new table in supabase and link html to supabase table 
-*allow the user to sign up, taking them to the homepage
-*allow the user to sign in, taking them to the homepage
-*allow the user to be redirected to the homepage if tries to go to auth from homepage
--add fetch-utils.js file and add supabase client 
+   ✅using forms for sign UP email input, password input, and submit button
+ ✅create new table in supabase and link html to supabase table 
+ ✅allow the user to sign up, taking them to the auth page
+ ✅allow the user to sign in, taking them to the auth page
+ ✅allow the user to be redirected to the homepage if tries to go to auth from homepage
+ ✅add fetch-utils.js file and add supabase client 
   -signUpUser()
--create app.js file 
-  -add event listener for 'submit' on sign in 
-  -VALIDATION: get email and pass in console and log user
--fetch-utils return the response to the user 
+ ✅create app.js file 
+   ✅add event listener for 'submit' on sign in 
+   ✅VALIDATION: get email and pass in console and log user
+ ✅fetch-utils return the response to the user 
 VALIDATION: you should see new user stored in supabase 
--fetch-utils: getUser(), redirect to homepage
--add js. file for auth. call redirectIfLoggedIn() 
-VALIDATION: page redirects to home page if already logged in
+ ✅fetch-utils: getUser(), redirect to homepage
+ ✅add js. file for auth. call redirectIfLoggedIn() 
+ ✅VALIDATION: page redirects to home page if already logged in
 
 
 🎁Auth Button in homepage
--event listener on window load should check to see if user if auth
-yes= logout button 
-no= login button
+ ✅event listener on window load should check to see if  ✅ user if auth
+ ✅yes= logout button 
+ ✅no= login button
+
+🎁homepage bulletin div
+-create html div and add desired style
+-set up TDD and render function
+-
 
 🎁create post homepage
 -to be continued'...
+
+list of emojis
+
+
+😀 😃 😄 😁 😆 😅 😂 🤣 🥲 ☺️ 😊 😇 🙂 🙃 😉 😌 😍 🥰 😘 😗 😙 😚 😋 😛 😝 😜 🤪 🤨 🧐 🤓 😎 🥸 🤩 🥳 😏 😒 😞 😔 😟 😕 🙁 ☹️ 😣 😖 😫 😩 🥺 😢 😭 😤 😠 😡 🤬 🤯 😳 🥵 🥶 😱 😨 😰 😥 😓 🤗 🤔 🤭 🤫 🤥 😶 😐 😑 😬 🙄 😯 😦 😧 😮 😲 🥱 😴 🤤 😪 😵 🤐 🥴 🤢 🤮 🤧 😷 🤒 🤕 🤑 🤠 😈 👿 👹 👺 🤡 💩 👻 💀 ☠️ 👽 👾 🤖 🎃 😺 😸 😹 😻 😼 😽 🙀 😿 😾
