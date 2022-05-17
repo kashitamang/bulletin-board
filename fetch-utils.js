@@ -15,3 +15,14 @@ export async function signupUser(email, password) {
         console.error(response.error);
     }
 }
+
+export async function redirectIfLoggedIn() {
+    if (getUser()) {
+        location.replace('/index.html');
+    }
+}
+
+export async function logout() {
+    await client.auth.signOut();
+    return (window.location.href = './index.html');
+}

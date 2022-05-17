@@ -1,5 +1,5 @@
 // import functions and grab DOM elements
-import { getUser } from './fetch-utils.js';
+import { getUser, logout } from './fetch-utils.js';
 
 const bulletin = document.getElementById('bulletin-board');
 const authButton = document.getElementById('auth-button');
