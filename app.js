@@ -7,22 +7,26 @@ const createButton = document.getElementById('create-button');
 
 //console.log(createButton);
 // let state
+// set event listeners 
 
 window.addEventListener('load', async () =>{
     const user = await getUser();
-
+//logout button still not appearing!!!!!!!!
+  // get user input
+  // use user input to update state 
     if (user) {
         authButton.addEventListener('click', logout);
+          // update DOM to reflect the new state
         authButton.texContent = 'logout';
     } else {
         authButton.addEventListener('click', () => {
             location.replace('/auth/index.html');
         });
-        authButton.textContent = 'login';
+        //authButton.textContent = 'login';
+          // update DOM to reflect the new state
     }
     //add createButton event listener here...
 });
-// set event listeners 
-  // get user input
-  // use user input to update state 
-  // update DOM to reflect the new state
+
+
+

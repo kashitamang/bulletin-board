@@ -6,7 +6,7 @@ const signUpPassword = document.getElementById('sign-up-password');
 
 //console.log(signUpPassword);
 
-//redirectIfLoggedIn();
+redirectIfLoggedIn();
 //wire up sign in and sign up forms to supabase 
 signUpForm.addEventListener('submit', async (e) => {
     e.preventDefault();
@@ -18,4 +18,4 @@ signUpForm.addEventListener('submit', async (e) => {
         location.replace('../index.html');
     }
 });
-///note i was working on redirect if loggged in 
+
