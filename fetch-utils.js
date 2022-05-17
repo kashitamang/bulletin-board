@@ -32,3 +32,12 @@ export async function logout() {
     await client.auth.signOut();
     return (window.location.href = '/');
 }
+
+function checkError({ data, error }) {
+    return error ? console.error(error) : data;
+}
+
+export async function getPosts() {
+    const resp = await client.from('posts').select('*');
+    return checkError(resp);
+}

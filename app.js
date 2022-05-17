@@ -1,5 +1,6 @@
 // import functions and grab DOM elements
-import { getUser, logout } from './fetch-utils.js';
+import { getUser, logout, getPosts } from './fetch-utils.js';
+import { renderPost } from './render-utils.js';
 
 const bulletin = document.getElementById('bulletin-board');
 const authButton = document.getElementById('auth-button');
@@ -25,7 +26,11 @@ window.addEventListener('load', async () =>{
         });
           // update DOM to reflect the new state
     }
-    
+    const posts = await getPosts();
+    for (let post of posts) {
+        const postDiv = renderPost(post);
+        bulletin.append(postDiv);
+    }
     //add createButton event listener here...
 });
 
