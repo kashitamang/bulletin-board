@@ -80,7 +80,7 @@ To Do List:
 -add event listener to auth button to take user to the auth page
 
 🎁create auth page in HTML 
-  -using forms for sign IN email input, password input, and submit button
+  ✅using forms for sign IN email input, password input, and submit button
   -using forms for sign UP email input, password input, and submit button
 -create new table in supabase and link html to supabase table 
 *allow the user to sign up, taking them to the homepage
