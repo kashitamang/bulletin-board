@@ -72,14 +72,14 @@ To Do List:
 
 -draw wireframe
 
-create home page in HTML
--navigation div
-    -auth button
-    -create button
--bulletin-board div 
+🎁create home page in HTML
+✅ navigation div
+    ✅ auth button
+    ✅ create button
+✅ bulletin-board div 
 -add event listener to auth button to take user to the auth page
 
--create auth page in HTML 
+🎁create auth page in HTML 
   -using forms for sign IN email input, password input, and submit button
   -using forms for sign UP email input, password input, and submit button
 -create new table in supabase and link html to supabase table 
@@ -98,10 +98,10 @@ VALIDATION: you should see new user stored in supabase
 VALIDATION: page redirects to home page if already logged in
 
 
-Auth Button in homepage
+🎁Auth Button in homepage
 -event listener on window load should check to see if user if auth
 yes= logout button 
 no= login button
 
--create post homepage
+🎁create post homepage
 -to be continued'...
