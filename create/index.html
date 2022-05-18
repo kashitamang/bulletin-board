@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script defer src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/reset.css">
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/home.css">
+    <title>new post</title>
+</head>
+<header>
+    <h1>new post</h1>
+</header>
+<body>
+    <main>
+        <form id="create-form">
+            <label>title</label>
+            <input type="text" name="title" id="title" required>
+            <label>feeling</label>
+            <input type="text" name="feeling" id="feeling" required>
+            <label>confession</label>
+            <input type="text" name="confession" id="confession" required>
+            <button>create</button>
+            <a href="../index.html">i don't want to sign up just yet...</a>
+        </form>
+    </main>
+    <script type="module" src="./app.js"></script>
+    <script type="module" src="create.js"></script>
+</body>
+<footer></footer>
+</html>
