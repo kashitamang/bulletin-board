@@ -41,3 +41,12 @@ export async function getPosts() {
     const resp = await client.from('posts').select('*');
     return checkError(resp);
 }
+
+export async function createNewPost(post) {
+    const response = await client.from('posts').insert(post);
+    if (response.data) {
+        return response.data;
+    } else {
+        console.error(response.error);
+    }
+}
