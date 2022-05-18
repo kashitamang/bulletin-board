@@ -16,4 +16,5 @@ createForm.addEventListener('submit', async (e) => {
     };
     const resp = await createNewPost(newPost);
     console.log(resp);
+    location.replace('../index.html');
 });

@@ -18,6 +18,9 @@ window.addEventListener('load', async () =>{
         authButton.textContent = 'logout';
         authButton.addEventListener('click', logout);
           // update DOM to reflect the new state
+        newPost.addEventListener('click', () => {
+            location.replace('./create/index.html');
+        });
     } else {
         authButton.textContent = 'login';
         authButton.addEventListener('click', () => {
