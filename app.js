@@ -12,7 +12,6 @@ const newPost = document.getElementById('new-post-button');
 
 window.addEventListener('load', async () =>{
     const user = await getUser();
-//logout button still not appearing!!!!!!!!
   // get user input
   // use user input to update state 
     if (user) {
@@ -25,6 +24,9 @@ window.addEventListener('load', async () =>{
             location.replace('/auth/index.html');
         });
           // update DOM to reflect the new state
+        newPost.addEventListener('click', () => {
+            location.replace('./create/index.html');
+        });
     }
     const posts = await getPosts();
     for (let post of posts) {

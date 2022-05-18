@@ -7,6 +7,12 @@ export function getUser() {
     return client.auth.session() && client.auth.session().user;
 }
 
+export async function checkAuth() {
+    const user = await getUser();
+
+    if (!user) location.replace('/auth/index.html');
+}
+
 export async function signInUser(email, password){
     const response = await client.auth.signIn({ email, password });
 

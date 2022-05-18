@@ -1,7 +1,8 @@
-import { createNewPost } from '../fetch-utils.js';
+import { createNewPost, checkAuth } from '../fetch-utils.js';
 
 const createForm = document.getElementById('create-form');
 
+checkAuth();
 //console.log(createForm);
 
 createForm.addEventListener('submit', async (e) => {
@@ -15,5 +16,4 @@ createForm.addEventListener('submit', async (e) => {
     };
     const resp = await createNewPost(newPost);
     console.log(resp);
-
 });
