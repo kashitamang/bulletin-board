@@ -4,7 +4,7 @@ import { renderPost } from './render-utils.js';
 
 const bulletin = document.getElementById('bulletin-board');
 const authButton = document.getElementById('auth-button');
-const createButton = document.getElementById('create-button');
+const newPost = document.getElementById('new-post-button');
 
 //console.log(createButton);
 // let state
