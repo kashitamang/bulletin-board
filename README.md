@@ -108,9 +108,10 @@ VALIDATION: you should see new user stored in supabase
 ✅set up TDD and render function
 
 🎁create post homepage
--to be continued'...
-
-list of emojis
-
-
-😀 😃 😄 😁 😆 😅 😂 🤣 🥲 ☺️ 😊 😇 🙂 🙃 😉 😌 😍 🥰 😘 😗 😙 😚 😋 😛 😝 😜 🤪 🤨 🧐 🤓 😎 🥸 🤩 🥳 😏 😒 😞 😔 😟 😕 🙁 ☹️ 😣 😖 😫 😩 🥺 😢 😭 😤 😠 😡 🤬 🤯 😳 🥵 🥶 😱 😨 😰 😥 😓 🤗 🤔 🤭 🤫 🤥 😶 😐 😑 😬 🙄 😯 😦 😧 😮 😲 🥱 😴 🤤 😪 😵 🤐 🥴 🤢 🤮 🤧 😷 🤒 🤕 🤑 🤠 😈 👿 👹 👺 🤡 💩 👻 💀 ☠️ 👽 👾 🤖 🎃 😺 😸 😹 😻 😼 😽 🙀 😿 😾
+✅add folder and html, css, and js file 
+✅add event listener on submit for form data
+✅add createpodt in fetch utils 
+✅call createPost on form submit
+✅add in redirects
+  ✅checkauth, if not logged in redirect to auth page, if logged in insert row into database
+✅program new post button on homepage to redirect to auth page if user (if not user, redirect to login page)

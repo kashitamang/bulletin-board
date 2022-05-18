@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../styles/style.css">
     <link rel="stylesheet" href="home.css">
     <script defer src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <title>log in</title>
 </head>
 <body>
@@ -22,6 +23,7 @@
                     <input type="email" name="email" id="sign-in-email" required>
                     <label>password</label>
                     <input type="password" name="password" id="sign-in-password" required>
+                    <i id="login-visibility-button" class="sign-in-visbility-button"><span class="material-symbols-outlined" id="sign-in-icon">visibility_off</span></i>
                     <button>log in</button>
                 </form>
             </div>
@@ -34,6 +36,7 @@
                     <input type="email" name="email" id="sign-up-email" placeholder="jackie@chan.com" required>
                     <label>password</label>
                     <input type="password" name="password" id="sign-up-password" required>
+                    <i id="signup-visibility-button" class="sign-in-visbility-button"><span class="material-symbols-outlined" id="sign-up-icon">visibility_off</span></i>
                     <button>sign up</button>
                 </form>
             </div>

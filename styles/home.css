@@ -39,7 +39,7 @@ button {
 #bulletin-board {
     display: flex;
     flex-direction: row;
-    width: 100%;
+    width: 1000px;
     overflow: scroll;
     height: 100%;
     flex-wrap: wrap;
@@ -77,4 +77,5 @@ form {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 565px;
 }
