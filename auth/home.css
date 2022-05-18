@@ -49,6 +49,11 @@ button {
     background-color: rgb(210, 255, 156);
 }
 
+button:hover {
+    cursor: pointer;
+    box-shadow: none;
+}
+
 input {
     width: 195px;
     border: none;
@@ -69,6 +74,10 @@ a:hover {
     'wght' 400,
     'GRAD' 0,
     'opsz' 48
+}
+
+i:hover {
+    color: rgb(205, 0, 205);
 }
 
 i, #login-visibility-button {

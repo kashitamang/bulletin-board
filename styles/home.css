@@ -36,6 +36,11 @@ button {
     background-color: rgb(210, 255, 156);
 }
 
+button:hover {
+    cursor: pointer;
+    box-shadow: none;
+}
+
 #bulletin-board {
     display: flex;
     flex-direction: row;
@@ -49,9 +54,9 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 250px;
+    max-width: 240px;
     max-height: 400px;
-    min-width: 250px;
+    min-width: 240px;
     min-height: 400px;
     background-color: white;
     border-top: 2px solid black;
@@ -61,6 +66,10 @@ button {
     overflow: scroll;
     box-shadow: var(--shadow);
     font-size: normal;
+}
+
+.post:hover {
+
 }
 
 .signature {
