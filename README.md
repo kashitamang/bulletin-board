@@ -104,9 +104,8 @@ VALIDATION: you should see new user stored in supabase
  ✅no= login button
 
 🎁homepage bulletin div
--create html div and add desired style
--set up TDD and render function
--
+✅create html div and add desired style
+✅set up TDD and render function
 
 🎁create post homepage
 -to be continued'...

@@ -25,9 +25,9 @@ test('test renderPost() function', (expect) => {
     
     const post = {
         id: 1,
-        title: 'is it just me?',
-        feeling: '🙃',
-        confession: 'is it just me or is it hard to know, what you dont know...yet?',
+        title: 'lately...',
+        feeling: '🤥',
+        confession: 'lately i\'ve been feeling like its hard to tell the difference between learning and familiarizing/memorizing? or are they the same? when will i know?',
     };
     //Act 
     // Call the function you're testing and set the result to a const
