@@ -8,39 +8,37 @@
     <link rel="stylesheet" href="../styles/style.css">
     <link rel="stylesheet" href="home.css">
     <script defer src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
-    <title>Authorization Page</title>
+    <title>log in</title>
 </head>
 <body>
     <header>
-        <h1>Authorization Page</h1>
-        <div></div>
+        <h1>log in</h1>
     </header>
     <main class="auth-main">
+        <div class="sign-in-div">
+            <div class="auth-container">
+                <form id="sign-in">
+                    <label>email</label>
+                    <input type="email" name="email" id="sign-in-email" required>
+                    <label>password</label>
+                    <input type="password" name="password" id="sign-in-password" required>
+                    <button>log in</button>
+                </form>
+            </div>
+        </div>
         <div class="sign-up-div">
             <div class="auth-container">
                 <form id="sign-up">
-                    <h1>sign-up</h1>
+                    <h1>new here?</h1>
                     <label>email</label>
                     <input type="email" name="email" id="sign-up-email" placeholder="jackie@chan.com" required>
                     <label>password</label>
                     <input type="password" name="password" id="sign-up-password" required>
-                    <button>submit</button>
+                    <button>sign up</button>
                 </form>
             </div>
         </div>
-        <div class="sign-in-div">
-            <div class="auth-container">
-                <form id="sign-in">
-                    <p>already a user?</p>
-                    <h1>sign-in</h1>
-                    <label>email</label>
-                    <input type="email" name="email" id="sign-in-email">
-                    <label>password</label>
-                    <input type="password" name="password" id="sign-in-password">
-                    <button>submit</button>
-                </form>
-            </div>
-        </div>
+        <a href="../index.html">i don't want to sign up just yet...</a>
     </main>
     <script src="./auth.js" type="module"></script>
 </body>
